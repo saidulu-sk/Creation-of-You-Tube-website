@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#firstmain{
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    padding: 10px 10px;
+    text-align: center; 
+}
+#firstmain i{
+    cursor: pointer;
+}
+#bars{
+    padding: 0px 20px;
+    font-size: larger;
+}
+#logo{
+    font-size: larger;
+    font-weight: 700;
+}
+#logo #logo1{
+color: red;
+}
+#search input{
+background-color: transparent;
+padding: 10px 20px;
+border-radius: 20px 0px 0px 20px;
+border: none;
+}
+#search{
+    border: 1px solid black;
+    padding: 8px 0px;
+    border-radius: 20px;
+    color: white;
+}
+
+#search input[type=text]:focus {
+    border: none;
+    outline: none;
+    
+  }
+ #sbtn{
+    background-color: rgba(69, 89, 102, 0.11);
+    padding: 9px 20px;
+    border-radius: 0px 20px 20px 0px;
+    transition: all 0.4s;
+    outline: none;
+ }
+ #sbtn:hover{
+    background-color: rgba(1, 44, 87, 0.5);  
+    border: none;
+    outline: none;  
+    color: white;
+ }
+ .fa-microphone{
+    margin-left: 10px;
+    padding: 10px 10px;
+    color: rgb(248, 244, 244);
+    background-color: rgba(54, 60, 65, 0.5); 
+    border-radius: 100%; 
+ }
+ .fa-microphone:hover{
+    background-color:grey;
+ }
+ 
+ .right i{
+    padding: 10px 10px;
+    transition: all 0.4s;
+ }
+ .right i:hover{
+    color: rgb(248, 244, 244);
+    background-color: black; 
+    border-radius: 100%; 
+ }
+ #bars:hover{
+    border: 1px solid orange;
+    border-radius: 20px;
+    color: orange;
+ }
+ /* =====================media quries================ */
+@media screen and (max-width : 999px){
+    .middile #search input{
+        width: 100px;
+    }
+    .middile #search{
+        display: flex;
+        padding: 0px 0px;
+        height: 30px;
+    }
+    .middile .fa-microphone{
+        display: none;
+    }
+    .left{
+        margin-left: 0px;
+        
+    }
+    #firstmain{
+        display: flex;
+        
+    }
+    .right .fa-braille{
+        display: none;
+    }
+    #bars{
+        padding: 0px 0px;
+    }
+    #bars:hover{
+        color: blue ;
+        border: none;
+    }
+}
+#sidebar .home{
+    display: flex;
+    width: 200px;
+    margin-left: 20px;
+    padding-top: 20px;
+    
+}
+#sidebar .home p{
+    margin-left: 20px;
+}
+#line{
+    width: 150px;
+    margin: 10px 10px;
+}
+#sidebar h3{
+    margin-left: 10px;
+}
+#sidebar i{
+    max-width: 20px;
+    font-size: larger;
+}
+.home #hore{
+    padding: 10px 5px   ;
+    width: auto;
+    display: flex;
+}
+.home #hore:hover{
+    background-color: red;
+    cursor: pointer;
+    border-radius: 20px;
+    
+}
+
+#sidebar{
+    position: relative;
+    top: -700px;
+}
+#menu ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(8, 8, 8);
+    color: white;
+    border-radius: 20px;
+    
+}
+#menu ul{
+    padding-left: 100px;
+}
+#menu #fst{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+#menu ul li:hover{
+    color: orange;
+    background-color: rgb(83, 23, 23);
+}
+.subvid .full{
+border: 1px solid white;
+border-radius: 20px;
+background-color: rgb(189, 186, 186);
+
+}
+.subvid .full img{
+    border-radius: 20px;
+    text-align: center;
+    
+    
+}
+.subvid:hover{
+    -webkit-box-shadow: 10px 3px 19px 15px rgba(120,107,120,1);
+-moz-box-shadow: 10px 3px 19px 15px rgba(120,107,120,1);
+box-shadow: 10px 3px 19px 15px rgba(120,107,120,1);
+border-radius: 20px;
+cursor: pointer;
+}
+.subvid .full #man{
+    width: 30px;
+}
+#video{
+    padding-left: 20%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.subvid .full p{
+    margin-left: 10px;
+}
